@@ -17,6 +17,7 @@ stages:
       vmImage: ubuntu-latest
       steps:
         - task: Bash@3
+          displayName: Run Script
           inputs:
             targetType: 'inline'
             script: |
